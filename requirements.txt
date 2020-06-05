@@ -13,7 +13,7 @@ configparser==3.5.0
 cookies==2.2.1
 dashtable==1.4.5
 decorator==4.1.2
-Django==1.11.28
+Django==1.11.29
 django-crispy-forms==1.7.2
 django-datatables-view==1.14.0
 django-extensions==1.9.0
