@@ -16,7 +16,7 @@ Installation
 
 Combine has a fair amount of server components, dependencies, and configurations that must be in place to work, as it leverages `Apache Spark <https://spark.apache.org/>`_, among other applications, for processing on the backend.
 
-To this end, a separate GitHub repository, `Combine-playbook <https://github.com/MI-DPLA/combine-playbook>`_, has been created to assist with provisioning a server with everything neccessary, and in place, to run Combine.  This repository provides routes for server provisioning via `Vagrant <https://www.vagrantup.com/>`_ and/or `Ansible <https://www.ansible.com/>`_. Please visit the `Combine-playbook <https://github.com/MI-DPLA/combine-playbook>`_ repository for more information about installation.
+The current version of Combine uses Docker as the only means of deploying a server (starting with version v0.11). This **combine-docker** version can be found on the `MI-DPLA/combine-docker <https://github.com/MI-DPLA/combine-docker`_ github. Earlier versions of Combine used a separate GitHub repository, Combine-playbook to assist with provisioning a Combine server using Vagrant and/or Ansible. 
 
 
 

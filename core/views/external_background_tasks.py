@@ -163,6 +163,8 @@ def system_bg_status(request):
             livy_session.refresh_from_livy()
             # set status
             livy_status = livy_session.status
+        else:
+            livy_status = 'unknown'
     else:
         livy_status = 'stopped'
 
