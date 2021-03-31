@@ -32,7 +32,7 @@ jedi==0.10.2
 jsonschema==2.6.0
 kombu==4.6.3
 livy==0.3.0
-lxml==4.3.3
+lxml==4.6.3
 mongoengine==0.15.3
 mysqlclient==1.4.2
 numpy==1.16.3
